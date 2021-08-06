@@ -8,9 +8,9 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS build
 WORKDIR /src
-COPY ["chatBot.csproj", "../chatBot/"]
+COPY ["../chatBot/chatBot.csproj", "../chatBot/"]
 COPY ["../Service/Service.csproj", "../Service/"]
-RUN dotnet restore "./chatBot.csproj"
+RUN dotnet restore "chatBot/chatBot.csproj"
 COPY . .
 WORKDIR "/src/chatBot"
 RUN dotnet build "chatBot.csproj" -c Release -o /app
