@@ -1,0 +1,9 @@
+E:\messHook\Service\bin\Debug\netcoreapp3.1\Service.deps.json
+E:\messHook\Service\bin\Debug\netcoreapp3.1\Service.dll
+E:\messHook\Service\bin\Debug\netcoreapp3.1\Service.pdb
+E:\messHook\Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+E:\messHook\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+E:\messHook\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+E:\messHook\Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+E:\messHook\Service\obj\Debug\netcoreapp3.1\Service.dll
+E:\messHook\Service\obj\Debug\netcoreapp3.1\Service.pdb
