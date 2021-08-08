@@ -19,4 +19,5 @@ RUN dotnet publish "chatBot.csproj" -c Release -o /app
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app .
+ENV ASPNETCORE_URLS http://*:$PORT
 ENTRYPOINT ["dotnet", "chatBot.dll"]
